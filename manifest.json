@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Nim Standard Library Search",
+    "description": "Adds Nim Standard Library search",
+    "version": "1.0",
+    "author": "xStormy",
+    "homepage_url": "https://github.com/xstormyy/firefox-nim-std-lib-search",
+    "developer": {
+        "name": "xStormy",
+        "url": "https://github.com/xstormyy"
+    },
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Nim Standard Library",
+            "search_url": "https://nim-lang.org/docs/{searchTerms}.html",
+            "keyword": "@nim",
+            "favicon_url": "https://nim-lang.org/assets/img/logo_bw.png",
+            "is_default": false,
+            "encoding": "UTF-8"
+        }
+    }
+}
